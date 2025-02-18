@@ -4,3 +4,5 @@ shadui
 zustand
 
 custom scafolding
+
+rm -rf .git and git init for creating own repo
