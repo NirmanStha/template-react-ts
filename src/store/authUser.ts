@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const useAuthUserStore = create((set) => {
+export const useAuthUserStore = create<any>((set) => {
   return {
     isLoggedIn: false,
     user: null,
